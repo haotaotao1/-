@@ -1,6 +1,7 @@
 <template>
   <div>
     <span>{{ msg }}</span>
+    <span>{{ dev }}</span>
   </div>
 </template>
 
@@ -8,7 +9,8 @@
 export default {
   data() {
     return {
-      msg: 'hello'
+      msg: 'hello',
+      dev: 'dev增加的数据'
     }
   }
 }
